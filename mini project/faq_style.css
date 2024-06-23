@@ -1,0 +1,26 @@
+img{
+	height:100%;
+	width:100%;
+	position:fixed;
+	z-index:-1;
+}
+article{
+	height:50%;
+	width:50%;
+	position:fixed;
+	margin:200px 0px 0px 350px;
+    border:2px solid black;
+	background-color:#454545;
+}
+p{
+	text-align:center;
+	font-size:25px;
+	color:red;
+}
+ul li{
+	display:block;
+	padding:5px;
+}
+a{
+	color:white;
+}

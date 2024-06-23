@@ -1,0 +1,131 @@
+<style>
+img{
+position:absolute;
+height:100%;
+width:100%;
+z-index:-1;
+margin:0px;
+}
+input[type=radio]#blue{
+	accent-color: blue;
+}
+input[type=radio]#pink{
+	accent-color: pink;
+}
+*{
+color:white;
+font-size:20px;
+}
+input{
+color:black;
+}
+form{
+padding-top:20px;
+}
+#title{
+padding:10px;
+}
+#name{
+padding:10px;
+}
+#fn{
+padding:10px;
+}
+#pa{
+padding:10px;
+}
+#s{
+padding:10px;
+}
+#course{
+padding:10px;
+}
+#mn{
+padding:10px;
+}
+#em{
+padding:10px;
+}
+option,select{
+color:#454545;
+}
+#l{
+color:#454545;
+}
+a{
+text-decoration:none;
+color:red;
+}
+#sub{
+margin-left:80px;
+}
+</style>
+<body>
+	<img src="reg1.jpg" alt="register form image">
+    <form action="" method="post">
+	<table border="0" rules="0" bgcolor="#454545" align="center">
+	<thead>
+	<th colspan="2"id="title">GYM REGISTRACTION FORM</th>
+	    
+	</thead>
+	<tbody>
+	<div>
+	<tr><td id="name"><label>Name </label></td>
+	<td><input type="string" name="n" id="a" placeholder="username"></td>
+	</tr>
+	</div>
+	<div>
+	<tr><td id="pass"><label>Password </label></td>
+	<td><input type="Password" name="pass id="pa" placeholder="Password"></td>
+	</tr>
+	</div>
+	<div>
+	<tr><td id="fn"><label>Father Name</label></td>
+	<td><input type="String" name="f" id="b" placeholder="Father Name"></td>
+	</tr>
+	</div>
+	<div>
+	<tr><td id="pa"><label>Personal Address</label></td>
+	<td><input type="string" name="pea" id="d"placeholder="Adress..."></td>
+	</tr>
+    <div>
+    </div>	
+	<tr><td id="s"><label>Sex</label></td>
+	<td><input type="radio" value="m" id="blue" name="gen">Male
+	<input type="radio" value="f" id="pink" name="gen">Female</td>
+	</tr>
+	</div>
+	<div>
+	<tr><td id="course"><label>Course</label></td>
+	<td id="sec"><select name="course" id="g" value="course" placeholder="course">
+	<option value="">Select</option>
+	<option value="wg">Weight Gaining</option>
+	<option value="st">Strengthening</option>
+	<option value="wl">Weight Loss</option>
+    <option value="ca">Cardio</option>
+    <option value="cwa">Cardio + Weight Loss</option>	
+	</td></tr></div>
+	<div>
+	<tr><td id="dob"><label> DOB</label></td>
+	<td><input type="date" name="d" id="l"></td>
+	</tr>
+    </div>
+	<div>
+	<tr><td id="mn"><label>Mobile No</label></td>
+	<td><input type="number" name="m" id="m" placeholder="Phone Number"></td>
+	</tr>
+    </dir>
+	<div>
+	<div>
+	<tr><td id="em"><label>E-mail</label></td>
+	<td><input type="email" name="e" id="k" placeholder="Email id"></td>
+	</tr>
+    </div>
+	<td></td>
+	<td id="sub"><button><a href="login.html">submit</a></button> </td></tr>
+	</div>
+	</tbody>
+	</table>
+	</form>
+	
+</body>
